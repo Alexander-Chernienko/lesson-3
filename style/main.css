@@ -6,10 +6,10 @@
 
 .wrapper {
     width: 1400px;
-    height: 1023px;
+    height: 4510px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .title {
@@ -21,6 +21,7 @@ h1 {
     font-size: 36px;
     font-weight: 400;
     color: #212121;
+    text-transform: uppercase;
 }
 
 hr {
@@ -76,25 +77,27 @@ h2 {
 }
 
 .custom_section {
-    background-image: url(../img/city-background.jpg);
+    background: no-repeat center url(../img/city-background.jpg) #363434;
     height: 325px;
-    width: 1400px;
-    filter: brightness(50%);
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
-.h1-custom_section {
+.title-custom_section {
     font-family: 'Raleway', sans-serif;
     padding-top: 79px;
     color: white;
     font-size: 36px;
+    text-transform: uppercase;
 }
-.hr-custom_section {
+.line-custom_section {
     background: white;
 }
 
-.p-custom_section {
+.text-custom_section {
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
+    opacity: 0.8;
 }
 
 button {
